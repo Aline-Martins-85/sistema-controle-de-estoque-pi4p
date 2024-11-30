@@ -1,0 +1,16 @@
+{
+  "name": "sistema-controle-de-estoque-pi4p",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000S\u0000i\u0000s\u0000t\u0000e\u0000m\u0000a\u0000 \u0000d\u0000e\u0000 \u0000c\u0000o\u0000n\u0000t\u0000r\u0000o\u0000l\u0000e\u0000 \u0000d\u0000e\u0000 \u0000E\u0000s\u0000t\u0000o\u0000q\u0000u\u0000e\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "espress": "^0.0.0",
+    "express": "^4.21.1"
+  }
+}
