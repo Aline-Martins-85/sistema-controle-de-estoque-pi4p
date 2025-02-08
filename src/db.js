@@ -49,3 +49,15 @@ db.serialize(() => {
     `);
     console.log('Tabela de associação entre fornecedores e produtos configurada!');
 });
+// Criar tabela de usuários
+db.serialize(() => {
+    db.run(`
+        CREATE TABLE IF NOT EXISTS usuarios (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            nome TEXT NOT NULL,
+            email TEXT NOT NULL UNIQUE,
+            senha TEXT NOT NULL
+        )
+    `);
+    console.log('Tabela de usuários configurada!');
+});

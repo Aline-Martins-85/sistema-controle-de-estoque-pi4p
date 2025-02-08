@@ -14,3 +14,6 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
     console.log(`Servidor rodando em http://localhost:${PORT}`);
 });
+
+const authRoutes = require('./auth'); // Importa rotas de autenticação
+app.use('/api/auth', authRoutes); // Define o prefixo para rotas de autenticação
